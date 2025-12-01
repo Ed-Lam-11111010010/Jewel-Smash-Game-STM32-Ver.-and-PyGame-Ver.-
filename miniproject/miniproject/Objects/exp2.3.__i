@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__EVAL -g -O0 --apcs=interwork --split_sections -I.\Board -I.\Core -I.\Fw_lib\inc -I.\User
+-I C:\Users\yuhom\Desktop\IERG3810\lab\lab-2\RTE
+-I C:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.4.0\Device\Include
+-I C:\Keil_v5\ARM\CMSIS\Include
+-D__UVISION_VERSION="515" -DSTM32F10X_HD -DUSE_STDPERIPH_DRIVER -DSTM32F10X_HD
+-o .\objects\exp2.3.o --omf_browse .\objects\exp2.3.crf --depend .\objects\exp2.3.d "User\Exp2.3.c"
